@@ -18,6 +18,12 @@ int main()
                 printf("%d is NOT FIBONACCI");
                 break;
             }
+
+            if (number == fibonacci_b)
+            {
+                printf("%d is FIBONACCI");
+                break;
+            }
         }
 
         if (!is_a_increasing)
@@ -28,6 +34,12 @@ int main()
             if (number > fibonacci_b && number < fibonacci_a)
             {
                 printf("%d is NOT FIBONACCI");
+                break;
+            }
+
+            if (number == fibonacci_b)
+            {
+                printf("%d is FIBONACCI");
                 break;
             }
         }
